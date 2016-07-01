@@ -6,8 +6,9 @@ So far the following projects exist here
 Complex graphic involving koch curve implemented through turtle module of python
 
 
-##Hangman
-
+##Tic Tac Toe
+Text based tic tac toe.
 
 
 ##Anagram finder from a dictionary
+Generates all the anagrams, and is highly efficient, makes extensive use of dictionaries in python.
