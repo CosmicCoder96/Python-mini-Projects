@@ -1,3 +1,7 @@
+#Author: Abhinav Khare
+#Date: 30-06-2016
+#Written in 53 Church St, Harvard University ,Cambridge, MA,USA 02138
+#this program generates all the possible anagrams of various words in the dictionary i.e. words.txt
 import time
 start = time.time()
 f = open("words.txt")
@@ -17,16 +21,4 @@ for i in d:
 		print(d[i] ,str(len(d[i])) , " anagrams")
 end = time.time()
 print(end-start)
-#pprint.pprint(d)
-#print(f)
-'''
-for a in f:
-	l=[a]
-	for b in f:
-		if(anagram(a,b)):
-			l.append(b)
-	#print(l)
-end = time.time()
-print(end-start)
-#print(anagram(input(),input()))
-'''
+
